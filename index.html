@@ -1,33 +1,102 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Mi Página Web</title>
-</head>
-<body>
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mi Portafolio</title>
+            <style>
+                /* Estilos generales */
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #C4E2C9;
+                }
 
-    <header>
-        <h1>Mi Página Web</h1>
-    </header>
+                /* Encabezado con imagen de fondo */
+                header {
+                    position: relative; /* Agrega esta propiedad para permitir la superposición */
+                    background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'); /* Reemplaza 'ruta-de-la-imagen-header.jpg' con la ruta de tu imagen de encabezado */
+                    background-size: 5; /* Ajusta el tamaño de la imagen de fondo */
+                    height: 500px; /* Ajusta la altura del encabezado según tus necesidades */
+                    color: #B2F5EA;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
 
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
+                /* Estilos para el texto superpuesto */
+                .texto-superpuesto {
+                    background-color: rgba(218, 200, 200, 0.5); /* Fondo semi-transparente para el texto */
+                    padding: 20px;
+                }
 
-    <section>
-        <h2>Bienvenido a mi página web</h2>
-        <p>Esta es una página web de ejemplo. Puedes personalizar este contenido según tus necesidades.</p>
-    </section>
+                /* Estilos para los títulos */
+                h1, h2 {
+                    color: #333333;
+                }
 
-    <footer>
-        <p>&copy; 2023 Mi Página Web</p>
-    </footer>
+                /* Contenedor principal */
+                .container {
+                    max-width: 800px;
+                    margin: 0 auto;
+                    padding: 20px;
+                    background-color: #FFF2E1;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
 
-</body>
-</html>
+                /* Estilos para las secciones */
+                section {
+                    margin-bottom: 20px;
+                }
+
+                /* Estilos para los párrafos dentro de las secciones */
+                section p {
+                    margin: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <div class="texto-superpuesto">
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </header>
+            <div class="container">
+                <section>
+                    <h2>Sobre Mí</h2>
+                    <p>
+                        Hola Sirley Acevedo es un apasionado técnico en telecomunicaciones con una destacada trayectoria en la reparación y configuración de una amplia gama de equipos, que abarcan desde routers Cisco y Sophos hasta dispositivos móviles y telefonía IP. Actualmente, forma parte de un equipo en una multinacional de telecomunicaciones, donde desafía diariamente los problemas técnicos más complejos. Su habilidad para utilizar estaciones de soldadura para cambiar componentes y devolver equipos a un estado funcional ha sido fundamental para mantener las comunicaciones sin interrupciones. Diana también está comprometida en expandir sus conocimientos en ciberseguridad y se encuentra en constante aprendizaje en este emocionante campo
+                    </p>
+                </section>
+                <section>
+                    <h2>Experiencia</h2>
+                    <p>
+                        <br>
+                        
+Reparación y Configuración de Equipos Avanzados: Como técnico en telecomunicaciones, lideré la reparación y configuración de una amplia gama de equipos críticos para la infraestructura de comunicaciones de la compañía. Esto incluyó routers Cisco, Sophos, MikroTik, teléfonos celulares, teléfonos IP y FortiGate, entre otros. Mi experiencia abarcó desde dispositivos móviles hasta soluciones de redes empresariales de alta complejidad.
+
+-Dominio de Estaciones de Soldadura: Utilicé mi habilidad experta con estaciones de soldadura para cambiar componentes defectuosos en dispositivos, garantizando que volvieran a estar completamente funcionales. Esta capacidad fue crucial para mantener la continuidad de las operaciones de la compañía y reducir costos significativamente al evitar la necesidad de reemplazar equipos completos.
+                    </p>
+                    <!-- Puedes agregar más experiencias aquí -->
+                </section>
+                <section>
+                    <h2></h2>
+                    <p>
+                        <br>
+                        
+                    </p>
+                    <!-- Puedes agregar más proyectos aquí -->
+                </section>
+                <section>
+                    <h2>Contacto</h2>
+                    <p>
+                        Puedes contactarme en siracev0208@gmail.com 
+                    </p>
+                </section>
+            </div>
+        </body>
+        </html>
+
