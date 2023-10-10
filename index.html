@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Wireless Wonders</title>
     <link rel="stylesheet" type="text/css" href="estilos.css">
     <style>
-        /* Estilos generales */
+        /* Cambia el fondo del cuerpo por una imagen */
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
+            background-image: url('https://w.wallhaven.cc/full/4o/wallhaven-4ojd97.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL o ruta de tu imagen */
+            background-size: cover; /* Ajusta el tamaño de la imagen de fondo para que cubra toda la página */
+            background-position: center; /* Centra la imagen de fondo */
+            background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
         }
 
         /* Estilos del encabezado */
         header {
             position: relative;
-            background-color: #56C2A7; /* Cambia el color de fondo si lo deseas */
+            background-color: ; /* Cambia el color de fondo si lo deseas */
             height: 400px;
             display: flex;
             align-items: center;
@@ -36,8 +41,14 @@
             margin-right: 40px; /* Espacio entre la imagen y el texto */
         }
 
+        /* Estilo para cambiar el tamaño del GIF */
+        .gif-tamaño {
+            width: 300px; /* Ancho deseado para el GIF */
+            height: 500px; /* Altura ajustada automáticamente para mantener la proporción */
+        }
+
         h1 {
-            color: #00F7FF; /* Cambia el color del texto si lo deseas */
+            color: #A4F802; /* Cambia el color del texto si lo deseas */
         }
 
         /* Estilos del contenido */
@@ -46,43 +57,20 @@
             text-align: center; /* Centra el contenido del div */
         }
 
-        /* Estilo para la sección "Servicios Técnicos Profesionales" */
-        .servicios {
-            background-color: #FFF8DC; /* Cambia el color de fondo a amarillo pálido (#FFF8DC) o cualquier otro color que prefieras */
-            color: #2C2C2C; /* Cambia el color del texto a un tono de gris (#2C2C2C) o cualquier otro color de texto que desees */
-            padding: 20px;
-            margin: 0 auto; /* Centra el contenido horizontalmente */
-            max-width: 800px; /* Limita el ancho máximo del contenido */
-        }
-
-        /* Estilo para la sección "Sobre Nosotros" */
-        .sobre-nosotros {
-            background-color: #E6E6FA; /* Cambia el color de fondo a lavanda (#E6E6FA) o cualquier otro color que prefieras */
-            color: #2C2C2C; /* Cambia el color del texto a un tono de gris (#2C2C2C) o cualquier otro color de texto que desees */
-            padding: 20px;
-            margin: 0 auto; /* Centra el contenido horizontalmente */
-            max-width: 800px; /* Limita el ancho máximo del contenido */
-        }
-
-        /* Estilo para la sección "Experiencia" */
-        .experiencia {
-            background-color: #B3E5FC; /* Cambia el color de fondo a verde claro (#F0FFFF) o cualquier otro color que prefieras */
-            color: #000000; /* Cambia el color del texto a negro (#000000) o cualquier otro color de texto que desees */
-            padding: 20px;
-            margin: 0 auto; /* Centra el contenido horizontalmente */
-            max-width: 800px; /* Limita el ancho máximo del contenido */
-        }
-
-        /* Estilo para la sección "Contacto" */
+        /* Estilo para las secciones sin fondo y texto en color blanco */
+        .servicios,
+        .sobre-nosotros,
+        .experiencia,
         .contacto {
-            background-color: #99CCFF; /* Cambia el color de fondo a menta (#F5FFFA) o cualquier otro color que prefieras */
-            color: #000000; /* Cambia el color del texto a un tono de gris (#2C2C2C) o cualquier otro color de texto que desees */
+            background-color: transparent; /* Fondo transparente */
+            color: #A4F802; /* Color de texto blanco */
             padding: 20px;
             margin: 0 auto; /* Centra el contenido horizontalmente */
-            max-width: 800px; /* Limita el ancho máximo del contenido */
+            max-width: 700px; /* Limita el ancho máximo del contenido */
         }
     </style>
 </head>
+
 <body>
     <header>
         <div class="header-content">
@@ -94,46 +82,36 @@
         <!-- Aquí va el contenido de tu página -->
     </div>
 
-     <!-- Imagen GIF en la parte inferior derecha -->
-    </div>
-    <img class="left-image" src="https://media.giphy.com/media/3oKIPwoeGErMmaI43S/giphy.gif" alt="https://media.giphy.com/media/3oKIPwoeGErMmaI43S/giphy.gif">
-     
     
 </div>
 
-</div>
+<section class="servicios">
+    <h2>Servicios Técnicos Profesionales</h2>
+    <p>
+        Bienvenido a nuestro servicio técnico especializado en la configuración y mantenimiento de una amplia gama de dispositivos electrónicos, dentro de los cuales encontramos, computadores, celulares y la interfaz del mismo, se hacen copias de seguridad de whatsapp, de google, que si se le olvido la clave del correo, que si el celular no tiene sonido, no toma fotos, todo lo relacionado con android es posible aqui.. modems, router, etc. En Sirley's Techno Wonderland, nos enorgullece ofrecer soluciones integrales y confiables para mantener tus dispositivos funcionando de manera óptima
+    </p>
+</section>
+<section class="sobre-nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>
+        Hola, Sirley Acevedo es una apasionada técnico en telecomunicaciones con una destacada trayectoria en la reparación y configuración de una amplia gama de equipos, que abarcan desde routers Cisco y Sophos hasta dispositivos móviles y telefonía IP. Actualmente, forma parte de un equipo en una multinacional de telecomunicaciones, donde desafía diariamente los problemas técnicos más complejos. Su habilidad para utilizar estaciones de soldadura para cambiar componentes y devolver equipos a un estado funcional ha sido fundamental para mantener las comunicaciones sin interrupciones. Diana también está comprometida en expandir sus conocimientos en ciberseguridad y se encuentra en constante aprendizaje en este emocionante campo.
+    </p>
+</section>
+<section class="experiencia">
+    <h2>Experiencia</h2>
+    <p>
+        Reparación y Configuración de Equipos Avanzados: Como técnico en telecomunicaciones, lideré la reparación y configuración de una amplia gama de equipos críticos para la infraestructura de comunicaciones de la compañía. Esto incluyó routers Cisco, Sophos, MikroTik, teléfonos celulares, teléfonos IP y FortiGate, entre otros. Mi experiencia abarcó desde dispositivos móviles hasta soluciones de redes empresariales de alta complejidad.
 
-
-
-    <section class="servicios">
-        <h2>Servicios Técnicos Profesionales</h2>
-        <p>
-            Bienvenido a nuestro servicio técnico especializado en la configuración y mantenimiento de una amplia gama de dispositivos electrónicos, dentro de los cuales encontramos, computadores, celulares y la interfaz del mismo, se hacen copias de seguridad de whatsapp, de google, que si se le olvido la clave del correo, que si el celular no tiene sonido, no toma fotos, todo lo relacionado con android es posible aqui.. modems, router, etc. En Sirley's Techno Wonderland, nos enorgullece ofrecer soluciones integrales y confiables para mantener tus dispositivos funcionando de manera óptima
-        </p>
-    </section>
-    <section class="sobre-nosotros">
-        <h2>Sobre Nosotros</h2>
-        <p> 
-            Hola, Sirley Acevedo es una apasionada técnico en telecomunicaciones con una destacada trayectoria en la reparación y configuración de una amplia gama de equipos, que abarcan desde routers Cisco y Sophos hasta dispositivos móviles y telefonía IP. Actualmente, forma parte de un equipo en una multinacional de telecomunicaciones, donde desafía diariamente los problemas técnicos más complejos. Su habilidad para utilizar estaciones de soldadura para cambiar componentes y devolver equipos a un estado funcional ha sido fundamental para mantener las comunicaciones sin interrupciones. Diana también está comprometida en expandir sus conocimientos en ciberseguridad y se encuentra en constante aprendizaje en este emocionante campo.
-        </p>
-    </section>
-    <section class="experiencia">
-        <h2>Experiencia</h2>
-        <p>
-            Reparación y Configuración de Equipos Avanzados: Como técnico en telecomunicaciones, lideré la reparación y configuración de una amplia gama de equipos críticos para la infraestructura de comunicaciones de la compañía. Esto incluyó routers Cisco, Sophos, MikroTik, teléfonos celulares, teléfonos IP y FortiGate, entre otros. Mi experiencia abarcó desde dispositivos móviles hasta soluciones de redes empresariales de alta complejidad.
-
-            -Dominio de Estaciones de Soldadura: Utilicé mi habilidad experta con estaciones de soldadura para cambiar componentes defectuosos en dispositivos, garantizando que volvieran a estar completamente funcionales. Esta capacidad fue crucial para mantener la continuidad de las operaciones de la compañía y reducir costos significativamente al evitar la necesidad de reemplazar equipos completos.
-        </p>
-    </section>
-    <section class="contacto">
-        <img class="bottom-right-gif" src="https://media.giphy.com/media/26xBIjtp7Nhupfc2Y/giphy.gif" alt="https://media.giphy.com/media/26xBIjtp7Nhupfc2Y/giphy.gif">
-
-        
-        <h2>Contacto</h2>
-        <p>
-            Puedes contactarme en siracev0208@gmail.com 
-        </p>
-    </section>
-    
+        -Dominio de Estaciones de Soldadura: Utilicé mi habilidad experta con estaciones de soldadura para cambiar componentes defectuosos en dispositivos, garantizando que volvieran a estar completamente funcionales. Esta capacidad fue crucial para mantener la continuidad de las operaciones de la compañía y reducir costos significativamente al evitar la necesidad de reemplazar equipos completos.
+    </p>
+</section>
+<section class="contacto">
+    <h2>Contacto</h2>
+    <p>
+        Puedes contactarme en siracev0208@gmail.com
+    </p>
+</section>
 </body>
+
 </html>
+
