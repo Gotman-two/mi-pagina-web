@@ -1,104 +1,109 @@
-        <!DOCTYPE html>
-        <html lang="es">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Mi Portafolio</title>
-            <style>
-                /* Estilos generales */
-                body {
-                    font-family: Arial, sans-serif;
-                    margin: 0;
-                    padding: 0;
-                    background-color: #C4E2C9;
-                }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wireless Wonders</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
 
-                /* Encabezado con imagen de fondo */
-                header {
-                    position: relative; /* Agrega esta propiedad para permitir la superposición */
-                    background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'); /* Reemplaza 'ruta-de-la-imagen-header.jpg' con la ruta de tu imagen de encabezado */
-                    background-size: 5; /* Ajusta el tamaño de la imagen de fondo */
-                    height: 500px; /* Ajusta la altura del encabezado según tus necesidades */
-                    color: #B2F5EA;
-                    text-align: center;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
+        /* Estilos del encabezado */
+        header {
+            position: relative;
+            background-color: #56C2A7; /* Cambia el color de fondo si lo deseas */
+            height: 400px;
+            display: flex;
+            align-items: center;
+        }
 
-                /* Estilos para el texto superpuesto */
-                .texto-superpuesto {
-                    background-color: rgba(218, 200, 200, 0.5); /* Fondo semi-transparente para el texto */
-                    padding: 20px;
-                }
+        .header-content {
+            display: flex;
+            align-items: center;
+            padding-left: 20px; /* Espacio a la izquierda de la imagen */
+        }
 
-                /* Estilos para los títulos */
-                h1, h2 {
-                    color: #333333;
-                }
+        .header-image {
+            width: 300px; /* Ancho de la imagen */
+            height: 300px; /* Altura de la imagen (igual que el ancho para hacerla circular) */
+            background-image: url('https://img.freepik.com/free-photo/miniature-workers-working-chip-motherboard_1252-831.jpg?w=740&t=st=1696949764~exp=1696950364~hmac=94217aa8a594bf0cf50a7277a8f19940d0936d327f99e2c4d13a064155536465'); /* Reemplaza 'URL-de-la-imagen.jpg' con la URL de tu imagen de encabezado */
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%; /* Esto hace que la imagen sea circular */
+            margin-right: 40px; /* Espacio entre la imagen y el texto */
+        }
 
-                /* Contenedor principal */
-                .container {
-                    max-width: 800px;
-                    margin: 0 auto;
-                    padding: 20px;
-                    background-color: #FFF2E1;
-                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                }
+        h1 {
+            color: #00FF00; /* Cambia el color del texto si lo deseas */
+        }
 
-                /* Estilos para las secciones */
-                section {
-                    margin-bottom: 20px;
-                }
+        /* Estilos del contenido */
+        .content {
+            padding: 20px;
+        }
 
-                /* Estilos para los párrafos dentro de las secciones */
-                section p {
-                    margin: 0;
-                }
-            </style>
-        </head>
-        <body>
-            <header>
-                <div class="texto-superpuesto">
-                    <h1></h1>
-                    <p></p>
-                </div>
-            </header>
-            <div class="container">
-                <section>
-                    <h2>Sobre Mí</h2>
-                    <p>
-                        Hola, Sirley Acevedo es una apasionada técnico en telecomunicaciones con una destacada trayectoria en la reparación y configuración de una amplia gama de equipos, que abarcan desde routers Cisco y Sophos hasta dispositivos móviles y telefonía IP. Actualmente, forma parte de un equipo en una multinacional de telecomunicaciones, donde desafía diariamente los problemas técnicos más complejos. Su habilidad para utilizar estaciones de soldadura para cambiar componentes y devolver equipos a un estado funcional ha sido fundamental para mantener las comunicaciones sin interrupciones. Diana también está comprometida en expandir sus conocimientos en ciberseguridad y se encuentra en constante aprendizaje en este emocionante campo
-                    </p>
-                </section>
-                <section>
-                    <h2>Experiencia</h2>
-                    <p>
-                        <br>
-                        
-Reparación y Configuración de Equipos Avanzados: Como técnico en telecomunicaciones, lideré la reparación y configuración de una amplia gama de equipos críticos para la infraestructura de comunicaciones de la compañía. Esto incluyó routers Cisco, Sophos, MikroTik, teléfonos celulares, teléfonos IP y FortiGate, entre otros. Mi experiencia abarcó desde dispositivos móviles hasta soluciones de redes empresariales de alta complejidad.
+        /* Estilo para la sección "Sobre Mí" */
+        .sobre-mi {
+            background-color: #D3DEEF; /* Cambia el color de fondo a rojo (#FF0000) o cualquier otro color que prefieras */
+            color: #2F2F2F; /* Cambia el color del texto a blanco (#FFFFFF) o cualquier otro color de texto que desees */
+            padding: 20px;
+        }
 
--Dominio de Estaciones de Soldadura: Utilicé mi habilidad experta con estaciones de soldadura para cambiar componentes defectuosos en dispositivos, garantizando que volvieran a estar completamente funcionales. Esta capacidad fue crucial para mantener la continuidad de las operaciones de la compañía y reducir costos significativamente al evitar la necesidad de reemplazar equipos completos.
-                    </p>
-                    <!-- Puedes agregar más experiencias aquí -->
-                </section>
-                <section>
-                    <h2></h2>
-                    <p>
-                        <br>
-                        
-                    </p>
-                    <!-- Puedes agregar más proyectos aquí -->
-                </section>
-                <section>
-                    <h2>Contacto</h2>
-                    <p>
-                        Puedes contactarme en siracev0208@gmail.com 
-                    </p>
-                </section>
-            </div>
-        </body>
-        </html>
+        /* Estilo para la sección "Experiencia" */
+        .experiencia {
+            background-color: #AFE0E4; /* Cambia el color de fondo a verde (#00FF00) o cualquier otro color que prefieras */
+            color: #000000; /* Cambia el color del texto a negro (#000000) o cualquier otro color de texto que desees */
+            padding: 20px;
+        }
+
+        /* Estilo para la sección "Contacto" */
+        .contacto {
+            background-color: #E8B9FF; /* Cambia el color de fondo a azul (#0000FF) o cualquier otro color que prefieras */
+            color: #2F2F2F; /* Cambia el color del texto a blanco (#FFFFFF) o cualquier otro color de texto que desees */
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-image"></div>
+            <h1>Sirley's Techno Wonderland</h1>
+        </div>
+    </header>
+    <div class="content">
+        <!-- Aquí va el contenido de tu página -->
+        <section class="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p> 
+                Hola, Sirley Acevedo es una apasionada técnico en telecomunicaciones con una destacada trayectoria en la reparación y configuración de una amplia gama de equipos, que abarcan desde routers Cisco y Sophos hasta dispositivos móviles y telefonía IP. Actualmente, forma parte de un equipo en una multinacional de telecomunicaciones, donde desafía diariamente los problemas técnicos más complejos. Su habilidad para utilizar estaciones de soldadura para cambiar componentes y devolver equipos a un estado funcional ha sido fundamental para mantener las comunicaciones sin interrupciones. Diana también está comprometida en expandir sus conocimientos en ciberseguridad y se encuentra en constante aprendizaje en este emocionante campo.
+            </p>
+        </section>
+        <section class="experiencia">
+            <h2>Experiencia</h2>
+            <p>
+                Reparación y Configuración de Equipos Avanzados: Como técnico en telecomunicaciones, lideré la reparación y configuración de una amplia gama de equipos críticos para la infraestructura de comunicaciones de la compañía. Esto incluyó routers Cisco, Sophos, MikroTik, teléfonos celulares, teléfonos IP y FortiGate, entre otros. Mi experiencia abarcó desde dispositivos móviles hasta soluciones de redes empresariales de alta complejidad.
+
+                -Dominio de Estaciones de Soldadura: Utilicé mi habilidad experta con estaciones de soldadura para cambiar componentes defectuosos en dispositivos, garantizando que volvieran a estar completamente funcionales. Esta capacidad fue crucial para mantener la continuidad de las operaciones de la compañía y reducir costos significativamente al evitar la necesidad de reemplazar equipos completos.
+            </p>
+        </section>
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <p>
+                Puedes contactarme en siracev0208@gmail.com 
+            </p>
+        </section>
+    </div>
+    <!-- Aquí va la imagen que mencionaste -->
+    <div style="text-align: center;">
+        <img src="https://img.freepik.com/premium-photo/electronics-workshop_52137-35906.jpg?w=740" alt="Imagen de taller de electrónica" width="400" height="250" style="display: inline-block;">
+    </div>
+</body>
+</html>
+
 
 
 
